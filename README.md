@@ -1,34 +1,36 @@
-# 🎬 YouTube Clone
+🎬 YouTube Clone
 
-A full-stack, responsive YouTube clone built with the MERN stack (MongoDB, Express, React, Node.js). 
+A full-stack YouTube clone built with the MERN stack 
+(MongoDB, Express, React, Node.js). Built from scratch 
+in 1st year B.Tech CSE.
 
-## 🚀 Features
-- **Modern UI**: Styled with Tailwind CSS for a premium look and feel.
-- **Dynamic Video Feed**: Fetches real video metadata from MongoDB.
-- **Custom Video Player**: Seamless playback for your favorite videos.
-- **Functional Backend**: Express API for managing video data, thumbnails, and uploads.
-- **Dark Mode Support**: Aesthetic design that adapts to your theme.
+✅ Working Features
+- Video upload and playback
+- Video deletion
+- View count
+- Like/Dislike count
+- Dynamic video feed from MongoDB
+- Responsive UI with Tailwind CSS
+- Dark mode support
 
-## 🛠️ Tech Stack
-- **Frontend:** React + Tailwind CSS (Vite)
-- **Backend:** Node.js + Express
-- **Database:** MongoDB Atlas
+⚠️ Known Limitations
+- Authentication UI exists but is not yet functional
+- Any user can currently delete any video (no auth guard)
+- Screenshots coming soon
 
-## 📦 Getting Started
+🛠️ Tech Stack
+- Frontend: React + Tailwind CSS (Vite)
+- Backend: Node.js + Express
+- Database: MongoDB Atlas
 
-### 1. Backend Setup
-```bash
+📦 Getting Started
+
+1. Backend Setup
 cd backend
 npm install
 npm run dev
-```
 
-### 2. Frontend Setup
-```bash
+2. Frontend Setup
 cd frontend
 npm install
 npm run dev
-```
-
-## 🎥 Screenshots
-*(Coming Soon)*
