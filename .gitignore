@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Uploads
+backend/uploads/videos/*
+backend/uploads/thumbnails/*
+!backend/uploads/videos/.gitkeep
+!backend/uploads/thumbnails/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db

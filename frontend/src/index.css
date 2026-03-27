@@ -1,0 +1,9 @@
+/* ===================================
+   index.css — Tailwind CSS entry point
+   =================================== */
+
+/* This single line imports ALL of Tailwind's styles */
+@import "tailwindcss";
+
+/* Allow manual dark mode toggle by adding 'dark' class to html/body/wrapper */
+@custom-variant dark (&:where(.dark, .dark *));
